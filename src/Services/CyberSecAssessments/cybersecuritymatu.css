@@ -1,0 +1,239 @@
+
+   /* Global styles */
+   .csmcontainer {
+    height: auto;
+    width: 100%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../../Images/backgroundimagepink.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+  .csmfirstimg{
+    height: 90%;
+    width: 90%;
+  }
+  .csmimage3{
+    height: 90%;
+    width: 90%;
+  }
+  .csmmaintitle1{
+    font-size: 2rem;
+    color: white;
+    font-weight: 700;
+  }
+  .csmsubtitle1{
+    font-size: 1rem;
+    color: white;
+  }
+  .csmnavy{
+    color: rgb(108, 24, 24);
+    font-weight: 700;
+  }
+  /* First row grid layout */
+  .csmfirstrow {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    height: auto;
+    background-image: linear-gradient(to right, #062140,#062140,#062140, #133051,#133051, #1f4062, #2b5074, #376186, #416e94, #4a7ba3, #5489b2, #5e96c0, #68a3cf);
+  }
+.csmmaintitle1{
+  font-size: 2rem;
+  color: white;
+  font-weight: 700;
+}
+.csmfirstimg{
+  height: 90%;
+  width: 90%;
+}
+  /* First row column 1 styling */
+  .csmfirstrowcol1 {
+    grid-area: 1 / 1 / 2 / 2;
+    padding: 50px;
+    padding-top: 100px;
+  }
+  
+  /* First row column 2 styling */
+  .csmfirstrowcol2 {
+    grid-area: 1 / 2 / 2 / 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding: 50px;
+  }
+  
+  /* Second row grid layout */
+  .csmsecondrow {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    height: auto;
+    background: transparent;
+  } 
+    .csmmaintitle2{
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: navy;
+    }
+  /* Second row column 1 styling */
+  .csmsecondrowcol1 {
+    grid-area: 1 / 1 / 2 / 2;
+    padding: 50px;
+  }
+    /* Second row column 1 styling */
+    .csmsecondrowcol2 {
+      grid-area: 1 / 2 / 2 / 3;
+      padding: 10px;
+      margin: 10px;
+     
+      display: grid;
+grid-template-columns: 1fr;
+grid-template-rows: 0.15fr 1fr;
+grid-column-gap: 0px;
+grid-row-gap: 10px;
+    }
+    .csmsubrow1{
+      grid-area: 1 / 1 / 2 / 2;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .csmsubrow2{
+      grid-area: 2 / 1 / 3 / 2; 
+      display: grid;
+grid-template-columns: 0.2fr 1fr;
+grid-template-rows: repeat(3, 1fr);
+grid-column-gap: 10px;
+grid-row-gap: 10px;
+    }
+
+.csmsubrow2div1{
+  grid-area: 1 / 1 / 2 / 2; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.csmsubrow2div2{
+  grid-area: 1 / 2 / 2 / 3; 
+}
+.csmsubrow2div3{
+  grid-area: 2 / 1 / 3 / 2; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.csmsubrow2div4{
+  grid-area: 2 / 2 / 3 / 3; 
+}
+.csmsubrow2div5{
+  grid-area: 3 / 1 / 4 / 2;  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.csmsubrow2div6{
+  grid-area: 3 / 2 / 4 / 3;  
+}
+.csmiconc{
+  width: 100%;
+  height: 100%;
+}
+
+.csmcsgimg3{
+  height: 75%;
+  width: 90%;
+}
+  /* First row grid layout */
+  .csmthirdrow {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    height: auto;
+    background-image: linear-gradient(to right, #062140,#062140,#062140, #133051,#133051, #1f4062, #2b5074, #376186, #416e94, #4a7ba3, #5489b2, #5e96c0, #68a3cf);
+  }
+  /* First row column 1 styling */
+  .csmthirdrowcol1 {
+    grid-area: 1 / 1 / 2 / 2;
+    padding: 50px;
+    padding-top: 100px;
+  }
+  
+  /* First row column 2 styling */
+  .csmthirdrowcol2 {
+    grid-area: 1 / 2 / 2 / 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+/* Responsive styles for screens with a maximum width of 760px */
+@media screen and (max-width: 760px) {
+  body{
+    overflow-x: hidden;
+  }
+    /* Update the first row layout to a single column */
+    .csmfirstrow {
+      grid-template-columns: 1fr;
+  }
+  /* Reset grid area for both columns in the first row */
+  .csmfirstrowcol1, .csmfirstrowcol2 {
+      grid-area: auto;
+  }
+  /* Update the first row layout to a single column */
+  .csmsecondrow {
+      grid-template-columns: 1fr;
+  }
+  /* Reset grid area for both columns in the first row */
+  .csmsecondrowcol1, .csmsecondrowcol2 {
+      grid-area: auto;
+  }
+  .csmsubrow2 {
+    grid-template-columns: 1fr;
+}
+.csmsubrow2div1, .csmsubrow2div2,.csmsubrow2div3,.csmsubrow2div4,.csmsubrow2div5,.csmsubrow2div6 {
+  grid-area: auto;
+  margin-top: -5vh;
+}
+.csmsubrow2div3{
+  margin-top: -30vh;
+}
+.csmsubrow2div4{
+  margin-top: -10vh;
+}
+.csmiconc{
+  width: 75%;
+  height: 75%;
+}
+
+    /* Update the first row layout to a single column */
+    .csmthirdrow {
+      grid-template-columns: 1fr;
+  }
+  /* Reset grid area for both columns in the first row */
+  .csmthirdrowcol1, .csmthirdrowcol2 {
+      grid-area: auto;
+  }
+  .csmthirdrowcol2{
+    margin-bottom: -10vh;
+  }
+  .csmimage3{
+    height: 80%;
+    width: 80%;
+  }
+
+.csmfirstimg{
+  height: 120%;
+  width: 120%;
+}
+}

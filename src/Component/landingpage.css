@@ -1,0 +1,354 @@
+.landingcontainer {
+  height: auto;
+  width: 100%;
+
+  }
+  
+  body{
+    overflow-x: hidden;
+    margin: 0;
+  }
+  .row1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+
+  }
+  .background-video{
+    height: 100%;
+    width: 100%;
+  }
+  .row1column1 {
+    grid-area: 1 / 1 / 2 / 2;   
+   height: 75vh;
+  }
+
+  .carousl {
+    width: 100vw;
+    min-height: 40vh;
+    background: white;
+    display: flex;
+  }
+  .carodiv1,
+  .carodiv3 {
+    flex: 0 0 20vw;
+    background:transparent;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  .carodiv2 {
+    flex: 0 0 60vw;
+    background: transparent;
+    overflow: hidden; /* Hide overflowing content */
+    position: relative;
+  }
+  .services{
+    min-height: 100vh;
+  }
+  .ourpartners {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  margin-left: 5vw;
+  margin-right: 5vw; /* To offset the margin from all sides */
+  }
+  .ourpartners {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 50px 12vw; 
+/* 50px margin from all sides except the top, which is handled by services padding-top */
+  }
+  .content{
+    text-align: center;
+    justify-content: center;
+      font-size: 36px; /* Adjust the font size as needed */
+    font-weight: bold;
+  }/* ... Previous styles ... */
+.card1 {
+  box-sizing: border-box;
+  position: relative;
+  width: calc(33.33% - 20px); /* 33.33% width with 10px margin on each side */
+  height: 220px; /* Adjust height as needed */
+  margin: 10px; /* 10px margin between cards */
+  background: rgb(109, 72, 209);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: all 0.5s;
+  overflow: hidden;
+}
+.content {
+  text-align: center;
+  justify-content: center;
+  font-size: 36px; /* Adjust the font size as needed */
+  margin-bottom: -180px; /* Add some spacing between the heading and cards */
+  margin-top: 20vh;
+  font-weight: bold;
+}
+.ourpartners {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: 10vw; /* 20vw margin from the left */
+  margin-right: 10vw;
+  padding-top: 10vh; /* 20vw margin from the right */
+}
+.homepagebutton {
+  margin: 5px;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+
+  cursor: pointer;
+  will-change: box-shadow,transform;
+  background: radial-gradient( 100% 100% at 100% 0%, #89E5FF 0%, #5468FF 100% );
+  box-shadow: 0px 0.01em 0.01em rgb(45 35 66 / 40%), 0px 0.3em 0.7em -0.01em rgb(45 35 66 / 30%), inset 0px -0.01em 0px rgb(58 65 111 / 50%);
+  /* padding: 0 2em; */
+  border-radius: 0.3em;
+  color: #fff;
+  height: 2.6em;
+  text-shadow: 0 1px 0 rgb(0 0 0 / 40%);
+  transition: box-shadow 0.15s ease, transform 0.15s ease;
+}
+.homepagebutton:hover {
+box-shadow: 0px 0.1em 0.2em rgb(45 35 66 / 40%), 0px 0.4em 0.7em -0.1em rgb(45 35 66 / 30%), inset 0px -0.1em 0px #3c4fe0;
+transform: translateY(-0.1em);
+}
+.homepagebutton:active {
+box-shadow: inset 0px 0.1em 0.6em #3c4fe0;
+transform: translateY(0em);
+}
+@media (max-width: 768px) {
+  .card1 {
+    width: calc(50% - 20px); /* 50% width with 10px margin on each side for smaller screens */
+  }
+  .ourpartners {
+    margin-left: 5vw; /* Adjust margin for smaller screens */
+    margin-right: 5vw;
+     /* Adjust margin for smaller screens */
+  }
+}
+.tagline {
+  color: transparent; 
+  font-size: 65px;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+  background: -webkit-linear-gradient(right, #dfd9d9, #f0eeee, #c79bec, #f90f0f,#f90f0f);
+  display: flex;
+  justify-content: center; /* Center text horizontally */
+  align-items: center; /* Center text vertically */
+  margin-top: 40vh;
+  padding: 10px; /* Add some padding for better visibility */
+  -webkit-background-clip: text; /* Apply background to the text */
+  background-clip: text; /* Apply background to the text */
+}
+@media (max-width: 600px) {
+  .tagline {
+    color: transparent; 
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    background: -webkit-linear-gradient(right, #dfd9d9, #f0eeee, #c79bec, #f90f0f,#f90f0f);
+    display: flex;
+    justify-content: center; /* Center text horizontally */
+    align-items: center; /* Center text vertically */
+text-align: center;
+    padding: 30px; /* Add some padding for better visibility */
+    -webkit-background-clip: text; /* Apply background to the text */
+    background-clip: text; /* Apply background to the text */
+  }
+}
+.homeservicesubtitle{
+  color: white;
+}
+.servicesectioncontainer {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  width: 100%;
+  max-width: 100vw; /* Add this line to limit to viewport width */
+  overflow-x: hidden;
+
+}
+
+.servicesectioncontainerrow1 { 
+  grid-area: 1 / 1 / 2 / 2;
+  padding: 50px;
+
+
+  display: grid;
+grid-template-columns: 1fr 0.6fr;
+grid-template-rows: 1fr;
+grid-column-gap: 10px;
+grid-row-gap: 0px;
+}
+.servicesectioncontainerrow2 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  background-color: rgb(13, 13, 43);
+  margin: 0; /* Remove margin */
+  padding: 50px 0; /* Adjust padding as needed */
+  border: 2px solid navy;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+  .servicesectioncontainerrow1col1{
+    grid-area: 1 / 1 / 2 / 2;
+    background-color: rgb(14, 14, 54);
+    border-radius: 10px;
+    padding: 50px;
+  }
+  .servicesectioncontainerrow1col2{
+    grid-area: 1 / 2 / 2 / 3;
+    border-radius: 10px;
+  }
+  .homeimage1{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  @media screen and (max-width:900px) {
+    .servicesectioncontainer{
+      grid-template-columns: 1fr;
+      padding: 0;
+    }
+    .servicesectioncontainerrow1{
+      grid-area: auto;
+    }
+    .servicesectioncontainerrow1{
+      grid-template-columns: 1fr;
+     
+      padding: 10px
+    }
+    .homeimage1{
+      height:100%;
+      width: 100%;
+      border-radius: 10px;
+    }
+    .servicesectioncontainerrow1col1,.servicesectioncontainerrow1col2{
+      grid-area: auto;
+      padding: 30px;
+    }
+    .homeservicesubtitle{
+      font-size: 10px;
+      color: white;
+      padding-top: 10px;
+    }
+    .homeservicemaintitle{
+      font-size: 15px;
+      color: white;
+    }
+  }
+  
+.homeservice-card {
+
+  width: 32%;
+  border-radius: 0.5rem;
+  background-color: #fff;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  border: 1px solid navy;
+margin-bottom: 5vh;
+-webkit-box-shadow: -9px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: -9px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: -9px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+
+
+.homeservice-content {
+  padding: 1.1rem;
+}
+.homeservice-image {
+  border-radius: 0.5rem;
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+  background-color: rgb(239, 205, 255);
+  display: grid;
+grid-template-columns: 0.5fr 1fr;
+grid-template-rows: 1fr;
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+}
+.homeserviceimagecol1 { grid-area: 1 / 1 / 2 / 2; 
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 15px;
+}
+.homeserviceimagecol2 { grid-area: 1 / 2 / 2 / 3; 
+padding-top: 10px;
+padding-right: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+.homeservicetitle1{
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+@media (max-width:760px){
+  .homeservice-card {
+  width: 100%;
+  border-radius: 0.5rem;
+  background-color: #fff;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  border: 1px solid navy;
+  margin-bottom: 5vh;
+  -webkit-box-shadow: -9px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: -9px 10px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: -9px 10px 5px 0px rgba(0,0,0,0.75);
+  }
+  .servicesectioncontainerrow2{
+    grid-template-columns: 1fr;
+    padding: 40px;
+    margin: 10px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+body{
+  overflow-x: hidden;
+}
+  }
+
+  @media screen and (max-width:900px){
+    .row1 {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr;
+      grid-column-gap: 0px;
+      grid-row-gap: 0px;
+  
+    }
+    .background-video{
+      height: 65%;
+      width: 100%;
+    }
+    .row1column1 {
+      grid-area: 1 / 1 / 2 / 2;   
+     height: 65%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    }
+  }

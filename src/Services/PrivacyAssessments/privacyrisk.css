@@ -1,0 +1,47 @@
+
+.privacyriskfourthrow{
+
+  display: grid;
+grid-template-columns: 0.7fr 1fr 0.7fr;
+grid-template-rows: 1fr;
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+
+
+}
+.privacyriskmaintitle1{
+  font-size: 2.5rem;
+  color: white;
+  font-weight: 700;
+}
+.privacyriskimage1{
+  height: 80%;
+  width: 100%;
+}
+.privacyriskfourthrowcol1 { 
+  grid-area: 1 / 1 / 2 / 2;
+
+padding: 50px;
+}
+.privacyriskfourthrowcol2 { 
+  grid-area: 1 / 2 / 2 / 3;
+  
+}
+.privacyriskfourthrowcol3 {
+  grid-area: 1 / 3 / 2 / 4; 
+   
+padding: 50px;
+  }
+
+.privacyriskimage3{
+  height: 100%;
+  width: 100%;
+}
+@media  screen and (max-width:900px) {
+  .privacyriskfourthrow{
+    grid-template-columns: 1fr;
+  } 
+  .privacyriskfourthrowcol1,.privacyriskfourthrowcol2,.privacyriskfourthrowcol3{
+    grid-area: auto;
+  }
+}

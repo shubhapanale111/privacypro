@@ -1,0 +1,579 @@
+/* .passprivacyprogramcontainer {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, auto);
+    grid-column-gap: 0px;
+    grid-row-gap: 10px;
+    height: auto;
+    width: auto;
+  }
+ 
+  .passpaafirstrow {
+    grid-area: 1 / 1 / 2 / 2;
+    display: flex;
+  
+background-color: black;
+background-image: url('../../Images/PDA1.png');
+
+height: 75vh;
+background-repeat: no-repeat;
+background-size: cover;
+  }
+  .passheaderimg{
+    width: 100vw;
+    margin-top: -20vh;
+    height: 100vh;
+  }
+  .passcolumn1,
+  .passcolumn2 {
+    width: 100%;
+
+    margin-top: 15vh;
+ 
+   color: white;
+   
+  }
+  .passcolumn1{
+    margin-left: 8vw;
+  }
+  .passctext{
+    font-size: 50px;
+  }
+  .passstext{
+    font-size: 35px;
+    color: black;
+  }
+  
+  .passsecondrowcolumn1,
+.passsecondrowcolumn2,
+.passthirdrowcolumn1,
+.passthirdrowcolumn2
+{
+  width: 100%; 
+
+
+  gap: 15px;
+  margin-top: 15vh;
+
+ color: white;
+}
+
+.passsecondrowcolumn1{
+  background-color: #fff;
+}
+
+.passthirdrowcolumn1{
+  margin-top: -8px;
+  
+
+}
+.passsecondrowcolumn1{
+    width: 100%;
+ 
+ 
+    margin-top: 15vh;
+  margin-left: 7vw;
+   color: rgb(4, 4, 4);
+}
+  .passsecondrow {
+    grid-area: 2 / 1 / 3 / 2;
+    background-color: white;
+    display: flex;
+    
+  }
+  .passfirstimg,.passarrow{
+    height: 100%;
+    width: 90%;
+   
+    box-shadow: 23px 18px 18px rgb(11, 10, 10);
+  }
+  .passthirdrow {
+    grid-area: 3 / 1 / 4 / 2;
+    background-color: rgb(14, 14, 77);
+    display: flex;
+  }
+
+  
+  .passcontact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+    width: 100vw;
+  }
+
+
+
+  .passfifthsub{ height: auto;
+    display: flex;
+    padding: 20px;
+    
+  justify-content: center;
+  align-items: center;
+
+  }
+ 
+  .passarrow-img {
+  padding-left: 20vw;
+ 
+  }
+  .passarrow2-img {
+    padding-right: 20vw;
+    height: 100%;width: 100%;
+   
+    }
+    .passsubfr1{
+      padding: 20px;
+      color: rgb(18, 18, 83);
+    }
+    .passpp-card {
+      width: 300px;
+      height: auto;
+      padding: .8em;
+      background: #f5f5f5;
+      position: relative;
+      overflow: visible;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    }
+    
+    .passpp-card-img {
+      background-color: #ffcaa6;
+      height: 40%;
+      width: 100%;
+      border-radius: .5rem;
+      transition: .3s ease;
+    }
+    
+    .passpp-card-info {
+      padding-top: 10%;
+    }
+    
+    .passpp-svg-icon {
+      width: 20px;
+      height: 20px;
+    }
+    
+    .passpp-card-footer {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-top: 10px;
+      border-top: 1px solid #ddd;
+    }
+    
+
+    .passpp-text-title {
+      font-weight: 900;
+      font-size: 1.2em;
+      line-height: 1.5;
+      color: rgb(41, 41, 89);
+    }
+    
+    .passpp-text-body {
+      font-size: .9em;
+      padding-bottom: 10px;
+      color: rgb(41, 41, 89);
+    }
+    
+
+
+    .passpp-card-img:hover {
+      transform: translateY(-25%);
+      box-shadow: rgba(226, 196, 63, 0.25) 0px 13px 47px -5px, rgba(180, 71, 71, 0.3) 0px 8px 16px -8px;
+    }
+    .passfourthrow {
+        display: grid;
+        grid-template-columns: 0.5fr 1fr;
+        grid-template-rows: 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 10px;
+        width: auto;
+        min-height: 75vh;
+        background-color: white;
+      }
+      
+      .passfourthrowcol1 {
+        margin: 20px;
+        grid-area: 1 / 1 / 2 / 2;
+        background-image: linear-gradient(to bottom, #5d72db, #8099f2, #9671ee, #6c78f0, #317dee); 
+        border: 2px solid rgb(9, 9, 31);
+       
+padding: 50px;
+        border-radius: 10px 60px 10px 60px;
+        height: auto;
+      }
+      
+      .passfourthrowcol2 {
+        background-color: white;
+        padding: 20px;
+        grid-area: 1 / 2 / 2 / 3;
+       height: auto;
+        display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: repeat(2, 1fr);
+grid-column-gap: 10px;
+grid-row-gap: 15px; 
+      }
+      .passdivcol1 { grid-area: 1 / 1 / 2 / 2;  border: 2px solid rgb(9, 9, 31); border-radius: 10px 20px 40px 30px;
+        height: auto; background-image: linear-gradient(to bottom, #615ddb, #ba68e6, #9671ee, #6c78f0, #317dee); 
+        border: 2px solid rgb(9, 9, 31);padding: 20px;
+      }
+      .passdivcol2 { grid-area: 1 / 2 / 2 / 3; border: 2px solid rgb(9, 9, 31); border-radius: 20px 10px 30px 40px;
+      
+        background-image: linear-gradient(to bottom, #615ddb, #ba68e6, #9671ee, #6c78f0, #317dee); 
+        border: 2px solid rgb(9, 9, 31);  height: auto;padding: 20px;
+      }
+      .passdivcol3 { grid-area: 2 / 1 / 3 / 2; border: 2px solid rgb(9, 9, 31);border-radius: 30px 40px  40px 10px;
+      
+        background-image: linear-gradient(to bottom, #615ddb, #ba68e6, #9671ee, #6c78f0, #317dee); 
+        border: 2px solid rgb(9, 9, 31);  height: auto;padding: 20px;
+      }
+      .passdivcol4 { grid-area: 2 / 2 / 3 / 3; border: 2px solid rgb(9, 9, 31);border-radius: 40px 30px 10px 20px;
+      
+        background-image: linear-gradient(to bottom, #615ddb, #ba68e6, #9671ee, #6c78f0, #317dee); 
+        border: 2px solid rgb(9, 9, 31);  height: auto;padding: 20px;
+      }
+      
+ 
+    .passfifthrow {
+   
+      width: 100%;
+      min-height: 80vh;
+      padding-bottom: -30vh;
+      background-color: rgb(189, 245, 189);
+    }
+    .passtextfr{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-top: 20px;
+      color: rgb(14, 14, 77);
+     
+    }
+    .onlyfourthrow{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-top: 20px;
+
+    }
+
+    .productheadline{
+      font-size: 35px;
+    }
+
+    
+    .passsubfifthrow {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: 1fr;
+      grid-column-gap: 15px;
+ margin-bottom: 20vh;
+margin-top: 5vh;
+}
+
+.passfifthrowcolumn1,
+.passfifthrowcolumn2,
+.passfifthrowcolumn3,
+.passfifthrowcolumn4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}.passprivacyprogramcontainer {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(5, auto);
+  grid-column-gap: 0px;
+  grid-row-gap: 10px;
+  height: auto;
+  width: auto;
+}
+
+.passpaafirstrow {
+  grid-area: 1 / 1 / 2 / 2;
+  display: flex;
+
+background-color: black;
+background-image: url('../../Images/PDA1.png');
+
+height: 75vh;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.passheaderimg{
+  width: 100vw;
+  margin-top: -20vh;
+  height: 100vh;
+}
+.passcolumn1,
+.passcolumn2 {
+  width: 100%;
+
+  margin-top: 15vh;
+
+ color: white;
+ 
+}
+.passcolumn1{
+  margin-left: 8vw;
+}
+.passctext{
+  font-size: 50px;
+}
+.passstext{
+  font-size: 35px;
+  color: black;
+}
+
+.passsecondrowcolumn1,
+.passsecondrowcolumn2,
+.passthirdrowcolumn1,
+.passthirdrowcolumn2
+{
+width: 100%; 
+
+
+gap: 15px;
+margin-top: 15vh;
+
+color: white;
+}
+
+.passsecondrowcolumn1{
+background-color: #fff;
+}
+
+.passthirdrowcolumn1{
+margin-top: -8px;
+
+
+}
+.passsecondrowcolumn1{
+  width: 100%; 
+
+
+  margin-top: 15vh;
+margin-left: 7vw;
+ color: rgb(4, 4, 4);
+}
+.passsecondrow {
+  grid-area: 2 / 1 / 3 / 2;
+  background-color: white;
+  display: flex;
+  
+}
+.passfirstimg,.passarrow{
+  height: 100%;
+  width: 90%;
+ 
+  box-shadow: 23px 18px 18px rgb(11, 10, 10);
+}
+.passthirdrow {
+  grid-area: 3 / 1 / 4 / 2;
+  background-color: rgb(14, 14, 77);
+  display: flex;
+}
+
+
+.passcontact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75vh;
+  width: 100vw;
+}
+
+
+
+.passfifthsub{ height: auto;
+  display: flex;
+  padding: 20px;
+  
+justify-content: center;
+align-items: center;
+
+}
+
+.passarrow-img {
+padding-left: 20vw;
+
+}
+.passarrow2-img {
+  padding-right: 20vw;
+  height: 100%;width: 100%;
+
+  }
+  .passsubfr1{
+    padding: 20px;
+    color: rgb(18, 18, 83);
+  }
+  .passpp-card {
+    width: 300px;
+    height: auto;
+    padding: .8em;
+    background: #f5f5f5;
+    position: relative;
+    overflow: visible;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  }
+  
+  .passpp-card-img {
+    background-color: #ffcaa6;
+    height: 40%;
+    width: 100%;
+    border-radius: .5rem;
+    transition: .3s ease;
+  }
+  
+  .passpp-card-info {
+    padding-top: 10%;
+  }
+  
+  .passpp-svg-icon {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .passpp-card-footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    border-top: 1px solid #ddd;
+  }
+  
+
+  .passpp-text-title {
+    font-weight: 900;
+    font-size: 1.2em;
+    line-height: 1.5;
+    color: rgb(41, 41, 89);
+  }
+  
+  .passpp-text-body {
+    font-size: .9em;
+    padding-bottom: 10px;
+    color: rgb(41, 41, 89);
+  }
+  
+
+
+  .passpp-card-img:hover {
+    transform: translateY(-25%);
+    box-shadow: rgba(226, 196, 63, 0.25) 0px 13px 47px -5px, rgba(180, 71, 71, 0.3) 0px 8px 16px -8px;
+  }
+  .passfourthrow {
+      display: grid;
+      grid-template-columns: 0.5fr 1fr;
+      grid-template-rows: 1fr;
+      grid-column-gap: 0px;
+      grid-row-gap: 10px;
+      width: auto;
+      min-height: 75vh;
+      background-color: white;
+    }
+    
+    .passfourthrowcol1 {
+      margin: 20px;
+      grid-area: 1 / 1 / 2 / 2;
+      background-image: linear-gradient(to bottom, #5d72db, #8099f2, #9671ee, #6c78f0, #317dee); 
+      border: 2px solid rgb(9, 9, 31);
+     
+padding: 50px;
+      border-radius: 10px 60px 10px 60px;
+      height: auto;
+    }
+    
+    .passfourthrowcol2 {
+      background-color: white;
+      padding: 20px;
+      grid-area: 1 / 2 / 2 / 3;
+     height: auto;
+      display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: repeat(2, 1fr);
+grid-column-gap: 10px;
+grid-row-gap: 15px;
+    }
+    .passdivcol1 { grid-area: 1 / 1 / 2 / 2;  border: 2px solid rgb(9, 9, 31); border-radius: 10px 20px 40px 30px;
+      height: auto; background-image: linear-gradient(to bottom, #615ddb, #ba68e6, #9671ee, #6c78f0, #317dee); 
+      border: 2px solid rgb(9, 9, 31);padding: 20px;
+    }
+    .passdivcol2 { grid-area: 1 / 2 / 2 / 3; border: 2px solid rgb(9, 9, 31); border-radius: 20px 10px 30px 40px;
+    
+      background-image: linear-gradient(to bottom, #615ddb, #ba68e6, #9671ee, #6c78f0, #317dee); 
+      border: 2px solid rgb(9, 9, 31);  height: auto;padding: 20px;
+    }
+    .passdivcol3 { grid-area: 2 / 1 / 3 / 2; border: 2px solid rgb(9, 9, 31);border-radius: 30px 40px  40px 10px;
+    
+      background-image: linear-gradient(to bottom, #615ddb, #ba68e6, #9671ee, #6c78f0, #317dee); 
+      border: 2px solid rgb(9, 9, 31);  height: auto;padding: 20px;
+    }
+    .passdivcol4 { grid-area: 2 / 2 / 3 / 3; border: 2px solid rgb(9, 9, 31);border-radius: 40px 30px 10px 20px;
+    
+      background-image: linear-gradient(to bottom, #615ddb, #ba68e6, #9671ee, #6c78f0, #317dee); 
+      border: 2px solid rgb(9, 9, 31);  height: auto;padding: 20px;
+    }
+    
+
+  .passfifthrow {
+ 
+    width: 100%;
+    min-height: 80vh;
+    padding-bottom: -30vh;
+    background-color: rgb(189, 245, 189);
+  }
+  .passtextfr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    color: rgb(14, 14, 77);
+   
+  }
+  .onlyfourthrow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+
+  }
+
+  .productheadline{
+    font-size: 35px;
+  }
+
+  
+  .passsubfifthrow {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 15px;
+margin-bottom: 20vh;
+margin-top: 5vh;
+}
+
+.passfifthrowcolumn1,
+.passfifthrowcolumn2,
+.passfifthrowcolumn3,
+.passfifthrowcolumn4 {
+display: flex;
+justify-content: center;
+align-items: center;
+} */
+.productsubtitle5{
+  font-size: 1.2rem;
+  color: white;
+  font-weight: 650;
+
+}
+.productsubtitle6{
+  color: white;
+}
+
+.productassimage1{
+  height: 80%;
+  width: 100%;
+}

@@ -1,0 +1,251 @@
+
+  
+        /* Global styles */
+        .ciscontainer{
+          height: auto;
+          width: 100%;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background-image: url('../../Images/backgroundimagepink.png');
+          background-size: cover;
+          background-position: center;
+          background-attachment: fixed;
+      }
+
+/* Main title styling */
+.maintitle1 {
+  font-size: 35px;
+  color: white;
+}
+
+/* Image firstrow image styling */
+.cisimg {
+  height: 85%;
+  width: 85%;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(195,210,212,1);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(195,210,212,1);
+  box-shadow: 10px 10px 5px 0px rgba(195,210,212,1);
+}
+
+/* First row grid layout */
+.cisfirstrow {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  height: auto;
+  background-image: url('../../Images//backgroundregulations2-overlay.jpg');
+}
+
+/* First row column 1 styling */
+.cisscol1 {
+  grid-area: 1 / 1 / 2 / 2;
+  padding: 50px;
+  padding-top: 100px;
+}
+
+/* First row column 2 styling */
+.cisscol2 {
+  grid-area: 1 / 2 / 2 / 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 50px;
+ 
+}
+
+/* Second row grid layout */
+.cissecondrow {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  height: auto;
+  background-color: white;
+}
+
+/* Second row column 1 styling */
+.cissecondrowcol1 {
+  grid-area: 1 / 1 / 2 / 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
+
+/* Second row column 2 styling */
+.cissecondrowcol2 {
+  grid-area: 1 / 2 / 2 / 3;
+  padding: 50px;
+  padding-top: 100px;
+}
+
+/* Image styling for the second row */
+.cisimg2 {
+  height: 75%;
+  width: 75%;
+}
+
+/* Third row grid layout */
+.cisthirdrow {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  height: auto;
+  background-color: rgb(31, 31, 99);
+}
+
+/* Image styling for the third row */
+.cisimg3 {
+  height: 80%;
+  width: 85%;
+}
+
+/* Third row column 1 styling */
+.cisthirdrowcol1 {
+  grid-area: 1 / 1 / 2 / 2;
+  padding-top: 100px;
+  margin: 40px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+/* Additional styling for lists in the third row */
+.cisthirdrowcol1 ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.cisthirdrowcol1 li {
+  margin-bottom: 10px;
+}
+
+/* Main title styling for the third row */
+.maintitle3 {
+  color: white;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+/* Third row column 2 styling */
+.cisthirdrowcol2 {
+  grid-area: 1 / 2 / 2 / 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
+
+/* Subtitle styling */
+.maintitle5 {
+  font-size: 2rem;
+  color: navy;
+}
+
+/* Additional subtitle styling */
+.maintitle44 {
+  font-size: 2.2rem;
+  color: navy;
+}
+
+/* Image styling for the fourth row */
+.cisimg4 {
+  width: 80%;
+  height: 60%;
+}
+
+/* Fourth row grid layout */
+.cisfourthrow {
+  display: grid;
+  grid-template-columns: 0.75fr 1fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  height: auto;
+  background: transparent;
+}
+
+/* Fourth row column 1 styling */
+.cisfourthrowcol1 {
+  grid-area: 1 / 1 / 2 / 2;
+  text-align: center;
+  padding: 50px;
+  background: transparent;
+}
+
+/* Fourth row column 2 styling */
+.cisfourthrowcol2 {
+  grid-area: 1 / 2 / 2 / 3;
+  padding: 50px;
+}
+.cisprivacyprosinglecolumn {
+
+padding: 50px;
+border: 1.5px solid rgb(15, 15, 65);
+border-radius: 10px;
+width: 100%; /* Set width to 100% */
+box-sizing: border-box;
+height: auto;
+}
+
+/* Responsive styles for screens with a maximum width of 760px */
+@media screen and (max-width: 760px) {
+  /* Update the first row layout to a single column */
+  .cisfirstrow {
+      grid-template-columns: 1fr;
+  }
+  /* Reset grid area for both columns in the first row */
+  .cisscol1, .cisscol2 {
+      grid-area: auto;
+  }
+
+  /* Update the second row layout to a single column */
+  .cissecondrow {
+      grid-template-columns: 1fr;
+  }
+  /* Reset grid area for both columns in the second row */
+  .cissecondrowcol1, .cissecondrowcol2 {
+      grid-area: auto;
+  }
+
+  /* Update the third row layout to a single column */
+  .cisthirdrow {
+      grid-template-columns: 1fr;
+  }
+  /* Reset margin and grid area for both columns in the third row */
+  .cisthirdrowcol1, .cisthirdrowcol2 {
+      margin: 10px;
+      grid-area: auto;
+  }
+
+  /* Update the fourth row layout to a single column */
+  .cisfourthrow {
+      grid-template-columns: 1fr;
+  }
+  /* Reset grid area for both columns in the fourth row */
+  .cisfourthrowcol1, .cisfourthrowcol2 {
+      grid-area: auto;
+
+  }
+  .cisfourthrowcol2{
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+  
+  /* Additional styling for contact form */
+  .contactformm {
+      margin-top: -10vh;
+  }
+}

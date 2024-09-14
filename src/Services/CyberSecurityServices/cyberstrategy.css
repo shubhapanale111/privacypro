@@ -1,0 +1,219 @@
+
+   /* Global styles */
+   .csgcontainer {
+    height: auto;
+    width: 100%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../../Images/backgroundimagepink.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+  
+  /* First row grid layout */
+  .csgfirstrow {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    height: auto;
+    background-image: linear-gradient(to right, #062140,#062140,#062140, #133051,#133051, #1f4062, #2b5074, #376186, #416e94, #4a7ba3, #5489b2, #5e96c0, #68a3cf);
+  }
+.csgmaintitle1{
+  font-size: 2rem;
+  color: white;
+  font-weight: 700;
+}
+.csgfirstimg{
+  height: 90%;
+  width: 90%;
+}
+  /* First row column 1 styling */
+  .csgfirstrowcol1 {
+    grid-area: 1 / 1 / 2 / 2;
+    padding: 50px;
+    padding-top: 100px;
+  }
+  
+  /* First row column 2 styling */
+  .csgfirstrowcol2 {
+    grid-area: 1 / 2 / 2 / 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding: 50px;
+  }
+  
+  /* Second row grid layout */
+  .csgsecondrow {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    height: auto;
+    background: transparent;
+  } 
+    .csgmaintitle2{
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: navy;
+    }
+  /* Second row column 1 styling */
+  .csgsecondrowcol1 {
+    grid-area: 1 / 1 / 2 / 2;
+    padding: 50px;
+  }
+    /* Second row column 1 styling */
+    .csgsecondrowcol2 {
+      grid-area: 1 / 2 / 2 / 3;
+      padding: 10px;
+      margin: 10px;
+     
+      display: grid;
+grid-template-columns: 1fr;
+grid-template-rows: 0.15fr 1fr;
+grid-column-gap: 0px;
+grid-row-gap: 10px;
+    }
+    .subrow1{
+      grid-area: 1 / 1 / 2 / 2;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .subrow2{
+      grid-area: 2 / 1 / 3 / 2; 
+      display: grid;
+grid-template-columns: 0.2fr 1fr;
+grid-template-rows: repeat(3, 1fr);
+grid-column-gap: 10px;
+grid-row-gap: 10px;
+    }
+
+.subrow2div1{
+  grid-area: 1 / 1 / 2 / 2; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.subrow2div2{
+  grid-area: 1 / 2 / 2 / 3; 
+}
+.subrow2div3{
+  grid-area: 2 / 1 / 3 / 2; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.subrow2div4{
+  grid-area: 2 / 2 / 3 / 3; 
+}
+.subrow2div5{
+  grid-area: 3 / 1 / 4 / 2;  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.subrow2div6{
+  grid-area: 3 / 2 / 4 / 3;  
+}
+.iconc{
+  width: 100%;
+  height: 100%;
+}
+
+.csgimg3{
+  height: 75%;
+  width: 90%;
+}
+  /* First row grid layout */
+  .csgthirdrow {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    height: auto;
+    background-image: linear-gradient(to right, #062140,#062140,#062140, #133051,#133051, #1f4062, #2b5074, #376186, #416e94, #4a7ba3, #5489b2, #5e96c0, #68a3cf);
+  }
+  /* First row column 1 styling */
+  .csgthirdrowcol1 {
+    grid-area: 1 / 1 / 2 / 2;
+    padding: 50px;
+    padding-top: 100px;
+  }
+  
+  /* First row column 2 styling */
+  .csgthirdrowcol2 {
+    grid-area: 1 / 2 / 2 / 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+/* Responsive styles for screens with a maximum width of 760px */
+@media screen and (max-width: 760px) {
+  body{
+    overflow-x: hidden;
+  }
+    /* Update the first row layout to a single column */
+    .csgfirstrow {
+      grid-template-columns: 1fr;
+  }
+  /* Reset grid area for both columns in the first row */
+  .csgfirstrowcol1, .csgfirstrowcol2 {
+      grid-area: auto;
+  }
+  /* Update the first row layout to a single column */
+  .csgsecondrow {
+      grid-template-columns: 1fr;
+  }
+  /* Reset grid area for both columns in the first row */
+  .csgsecondrowcol1, .csgsecondrowcol2 {
+      grid-area: auto;
+  }
+  .subrow2 {
+    grid-template-columns: 1fr;
+}
+.subrow2div1, .subrow2div2,.subrow2div3,.subrow2div4,.subrow2div5,.subrow2div6 {
+  grid-area: auto;
+  margin-top: -5vh;
+}
+.subrow2div3{
+  margin-top: -30vh;
+}
+.subrow2div4{
+  margin-top: -10vh;
+}
+.iconc{
+  width: 75%;
+  height: 75%;
+}
+
+    /* Update the first row layout to a single column */
+    .csgthirdrow {
+      grid-template-columns: 1fr;
+  }
+  /* Reset grid area for both columns in the first row */
+  .csgthirdrowcol1, .csgthirdrowcol2 {
+      grid-area: auto;
+  }
+  .csgthirdrowcol2{
+    margin-bottom: -10vh;
+  }
+  .csgimg3{
+    height: 80%;
+    width: 80%;
+  }
+
+.csgfirstimg{
+  height: 120%;
+  width: 120%;
+}
+}

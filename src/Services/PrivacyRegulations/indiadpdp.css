@@ -1,0 +1,1213 @@
+.indiadpdpcontainer {
+  height: auto;
+  width: 100%;
+
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../../Images/backgroundimagepink.png');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.dpdpmaintitle{
+  font-size: 35px;
+  color: white;
+}
+
+.dpdpsubtitle{
+  font-size: 14px;
+  color: navy;
+  line-height: 1.5;
+}
+
+.maintitle{
+  font-size: 35px;
+}
+.subtitle{
+  font-size: 14px;
+  color: navy;
+}
+.subtitle22{
+  font-size: 14px;
+  color: black;
+}
+.maintitle2{
+  font-size: 35px;
+  color: white;
+}
+.subtitle2{
+  font-size: 14px;
+  color: white;
+}
+.maintitle4{
+  font-size: 35px;
+}
+
+.indiadpdpfirstrow {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+height: auto;
+  background-image: url('../../Images/DPDP-\ India.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.indiadpdpfirstrowcol {
+  position: relative;
+  padding: 50px;
+  background: transparent;
+  padding-top: 20vh;
+  grid-area: 1 / 1 / 2 / 2;
+  min-height: 75vh;
+  color: rgb(35, 35, 104);
+  font-weight: 600;
+  z-index: 2; 
+}
+
+.indiadpdpfirstrowco2 {
+  grid-area: 1 / 2 / 2 / 3;
+  min-height: 75vh;
+  padding: 50px;
+  background: transparent;
+}
+
+.indiadpdpsecondrow {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  margin-bottom: -10vh;
+}
+
+.indiadpdpsecondrowcol1 {
+  grid-area: 1 / 1 / 2 / 2;
+  min-height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gdprimg {
+  height: 70%;
+  width: 70%;
+}
+
+.whatisgdpr {
+  width: 80%;
+  height: 80%;
+}
+
+.indiadpdpsecondrowcol2 {
+  grid-area: 1 / 2 / 2 / 3;
+  min-height: 60vh;
+  padding: 50px;
+}
+
+.indiadpdpthirdrow {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  margin-bottom: -15vh;
+  background-image: linear-gradient(rgb(13, 13, 61), rgb(49, 9, 101), rgb(12, 12, 69));
+}
+
+.indiadpdpthirdrowcol1 {
+  grid-area: 1 / 1 / 2 / 2;
+  min-height: 60vh;
+  padding: 50px;
+}
+
+.indiadpdpthirdrowcol2 {
+  grid-area: 1 / 2 / 2 / 3;
+  min-height: 60vh;
+  padding: 50px;
+}
+
+.indiadpdpfourthrow {
+  display: grid;
+  grid-template-columns: 0.7fr 1fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+ background: transparent;
+ margin-top: 10vh;
+ height: auto;
+
+}
+
+.indiadpdpfourthrowcol1 {
+  grid-area: 1 / 1 / 2 / 2;
+  height: auto;
+  padding: 50px;
+}
+
+
+
+.info-container {
+  margin-top: 20px;
+}
+
+.point {
+  margin-bottom: 15px;
+}
+.submaintitle{
+color: black;
+}
+.subsubtitle{
+line-height: 1.5;
+color: black;
+}
+
+.needdpdp{
+  width: 90%;
+  height: 90%;
+}
+
+.indiadpdpfourthrowcol22 {
+  grid-area: 1 / 2 / 2 / 3;
+  height: auto;
+  padding: 50px;
+
+}
+
+.indiadpdpfifthrow {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  min-height: 75vh;
+}
+
+.indiadpdpfifthrowcol {
+  grid-area: 1 / 1 / 2 / 2;
+  background-color: rgb(20, 20, 58);
+}
+
+.gdpranimation2 {
+  display: flex;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  background-color: white;
+  padding-top: 30vh;
+}
+
+.gdpranimationText {
+  color: white;
+}
+
+.indiadpdpdpotext {
+  color: black;
+  font-size: 14px;
+}
+.gdpr2box {
+       
+        
+  width: 20vw;
+  position: absolute;
+  transition: transform 0.5s ease-in-out;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Adjust the values as needed */
+
+  /* Border */
+  border: 2px solid;
+  border-image: linear-gradient(to right, purple, red, blue);
+  border-image-slice: 1;
+}
+
+.gdpr2box1 { 
+  background-color: transparent;
+  background-image: linear-gradient(180deg,#000000 0%,#47138E 100%);
+      border: 2px solid rgb(2, 2, 58);
+  color: #fff; /* Set your desired text color */
+  text-align: center;
+  font-size: 18px; /* Set your desired font size */
+  
+  flex: 1;
+  position: absolute;
+  transition: transform 0.5s ease-in-out;
+  width: 25vw; /* Fixed width */
+ height: auto; 
+ padding: 20px;
+  display: grid; /* Add display grid if needed */
+  box-shadow: 28px 18px 18px rgba(0, 0, 0, 0.808); /* Adjust the values as needed */
+
+ 
+  border-image-slice: 1;
+border-radius: 7px;
+}
+.start-animation .gdpr2slide-tr {
+  background-color: transparent;
+  background-image: linear-gradient(180deg,#000000 0%,#47138E 100%);
+  border: 2px solid rgb(2, 2, 58);
+  color: black; 
+  text-align: center;
+  font-size: 18px;
+  position: relative;
+  -webkit-animation: slide-tr 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  animation: slide-tr 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  flex: 1;
+  position: absolute;
+  transition: transform 0.5s ease-in-out;
+padding: 10px;
+  width: 25vw; 
+ height: auto; 
+ box-shadow:  18px 9px 9px rgba(0, 0, 0, 0.808); 
+ border-image-slice: 1;
+ border-radius: 7px;
+}
+@-webkit-keyframes slide-tr {
+  0% {
+    -webkit-transform: translateY(0) translateX(0);
+    transform: translateY(0) translateX(0);
+  }
+  100% {
+    -webkit-transform: translateY(-230px) translateX(230px);
+    transform: translateY(-230px) translateX(230px);
+  }
+}
+@keyframes slide-tr {
+  0% {
+    -webkit-transform: translateY(0) translateX(0);
+    transform: translateY(0) translateX(0);
+  }
+  100% {
+    -webkit-transform: translateY(-320px) translateX(450px);
+    transform: translateY(-320px) translateX(450px);
+  }
+}
+.start-animation .gdpr2slide-tl {
+  background-color: transparent;
+  background-image: linear-gradient(180deg,#000000 0%,#47138E 100%);
+      border: 2px solid rgb(2, 2, 58);
+  color: #fff; 
+  text-align: center;
+  font-size: 18px; 
+  -webkit-animation: slide-tl 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  animation: slide-tl 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  flex: 1;
+  position: absolute;
+  transition: transform 0.5s ease-in-out;
+  width: 25vw; 
+height: auto;
+padding: 20px;
+box-shadow:  18px 9px 9px rgba(0, 0, 0, 0.808); 
+border-image-slice: 1;
+border-radius: 7px;
+}
+
+
+
+@-webkit-keyframes slide-tl {
+  0% {
+    -webkit-transform: translateY(0) translateX(0);
+    transform: translateY(0) translateX(0);
+  }
+  100% {
+    -webkit-transform: translateY(-230px) translateX(-230px);
+    transform: translateY(-230px) translateX(-230px);
+  }
+}
+@keyframes slide-tl {
+  0% {
+    -webkit-transform: translateY(0) translateX(0);
+    transform: translateY(0) translateX(0);
+  }
+  100% {
+    -webkit-transform: translateY(-320px) translateX(-450px);
+    transform: translateY(-320px) translateX(-450px);
+  }
+}
+.start-animation .gdpr2slide-right {
+  background-color: transparent;
+  background-image: linear-gradient(180deg,#000000 0%,#47138E 100%);
+      border: 2px solid rgb(2, 2, 58);
+  text-align: center;
+  font-size: 18px; 
+  -webkit-animation: slide-right 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  animation: slide-right 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  flex: 1;
+  position: absolute;
+  transition: transform 0.5s ease-in-out;
+  width: 25vw;
+  height: auto; 
+  padding: 20px;
+  box-shadow:  18px 9px 9px rgba(0, 0, 0, 0.808); 
+  border-image-slice: 1;
+  border-radius: 7px;
+}
+@-webkit-keyframes slide-right {
+  0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(450px);
+    transform: translateX(450px);
+  }
+}
+@keyframes slide-right {
+  0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(450px);
+    transform: translateX(450px);
+  }
+}
+.start-animation .gdpr2slide-left {
+  background-color: transparent;
+  background-image: linear-gradient(180deg,#000000 0%,#47138E 100%);
+      border: 2px solid rgb(2, 2, 58);
+  color: #fff; 
+  text-align: center;
+  font-size: 18px; 
+  -webkit-animation: slide-left 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  animation: slide-left 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  flex: 1;
+  position: absolute;
+  transition: transform 0.5s ease-in-out;
+  width: 25vw; 
+ height: auto; 
+ padding: 20px;
+  display: grid; 
+  box-shadow: 18px 9px 9px rgba(0, 0, 0, 0.808); 
+  border-image-slice: 1;
+  border-radius: 7px;
+}
+@-webkit-keyframes slide-left {
+  0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(-450px);
+    transform: translateX(-450px);
+  }
+}
+@keyframes slide-left {
+  0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(-450px);
+    transform: translateX(-450px);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:760px){
+  .indiadpdpfirstrow {
+          
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+
+    background-image: url('../../Images/GDPR\ Regulation.png');
+    background-repeat: no-repeat;
+  background-size: 100% 52%;
+ margin-bottom: -40vh;
+ margin-right: -12VW;
+  }
+  .maintitle{
+    font-size: 18px;
+  }
+  .subtitle{
+    font-size: 8px;
+    color: navy;
+  }
+  .subtitle22{
+    font-size: 9px;
+    color: black;
+  }
+  .maintitle2{
+    font-size: 18px;
+    color: white;
+  }
+  .subtitle2{
+    font-size: 8px;
+    color: white;
+  }
+  .submaintitle{
+    color: black;
+    font-size: 14PX;
+    }
+    .subsubtitle{
+    line-height: 1.5;
+    color: black;
+    font-size: 12PX;
+    }
+    
+    .needdpdp{
+      width: 100%;
+      height: 100%;
+      margin-top: 60PX;
+    }
+  .indiadpdpfirstrowcol {
+     background: transparent;
+    padding-right: 180px;
+    padding-top: 50px;
+    padding-left: 10px;
+     grid-area: 1 / 1 / 2 / 2;
+     color:rgb(35, 35, 104);
+     font-weight: 600;
+ 
+   }
+   .indiadpdpfirstrowco2 {
+    grid-area: 1 / 2 / 2 / 3;
+   
+
+   background: transparent;
+  }
+  .indiadpdpsecondrow {
+    grid-template-columns: 1fr;
+    height: auto;
+}
+
+.indiadpdpsecondrowcol1 {
+    grid-area: auto; /* Reset grid-area for single column layout */
+   min-height: auto; /* Reset min-height for single column layout */
+    padding: 20px; /* Adjust padding for better spacing in single column layout */
+}
+.indiadpdpsecondrowcol2 {
+  grid-area: auto; /* Reset grid-area for single column layout */
+height: auto; /* Reset min-height for single column layout */
+  padding: 20px;
+ margin-bottom: 50px; /* Adjust padding for better spacing in single column layout */
+}
+.indiadpdpsecondrowcol2 {
+
+  min-height: 40vh;
+  padding: 50px;
+ margin-top: -10vh;
+}
+.indiadpdpthirdrow {
+  grid-template-columns: 1fr;
+  
+}
+.indiadpdpthirdrowcol1 {
+  grid-area:auto;
+  min-height: auto;
+}
+.indiadpdpthirdrowcol2 {
+  grid-area: auto;
+  min-height: auto;
+padding-left: 20px;
+ padding-right: 20px;
+ padding-bottom: -50px;
+ padding-top: 0px;
+  display: flex;
+justify-content: center;
+align-items: start;
+}
+.whatisgdpr{
+  padding: 20PX;
+}
+.indiadpdpfourthrow {
+  grid-template-columns: 1fr;
+}
+
+.indiadpdpfourthrowcol1,
+.indiadpdpfourthrowcol22 {
+  grid-area: auto; /* Reset grid-area for single column layout */
+  min-height: auto; /* Reset min-height for single column layout */
+  padding: 20px; /* Adjust padding for better spacing in single column layout */
+}
+.needgdpr{
+  width: 100%;
+  height: 100%;
+}
+.indiadpdpfifthrowcol {
+  min-height: 50vh; /* Adjust height for smaller screens */
+}
+
+.gdpranimation2 {
+  padding-top: 20vh; /* Adjust padding for smaller screens */
+}
+.gdpranimation2 {
+  display: flex;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  width: 100vw;
+  margin: 0;
+  background-color:white;
+ 
+}
+.indiadpdpfifthrow {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  min-height: 37.5vh; /* Reduce the height by 50% */
+}
+
+.indiadpdpfifthrowcol {
+  grid-area: 1 / 1 / 2 / 2;
+  background-color: rgb(20, 20, 58);
+}
+.subtitle3{
+  color: white;
+  font-size: 8px;
+}
+.maintitle4{
+  color: navy;
+  margin-bottom: 100vh;
+  font-size: 30px;
+}
+
+.gdpranimationText{
+  font-size: 12px;
+}
+
+.gdpr2box {
+       
+        
+  width: 10vw;
+  position: absolute;
+  transition: transform 0.5s ease-in-out;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Adjust the values as needed */
+
+  /* Border */
+  border: 2px solid;
+  border-image: linear-gradient(to right, purple, red, blue);
+  border-image-slice: 1;
+}
+
+.gdpr2box1 { 
+  background-color: transparent;
+  background-image: linear-gradient(180deg,#000000 0%,#47138E 100%);
+      border: 2px solid rgb(2, 2, 58);
+  color: #fff; /* Set your desired text color */
+  text-align: center;
+  font-size: 12px; /* Set your desired font size */
+  
+  flex: 1;
+  position: absolute;
+  transition: transform 0.5s ease-in-out;
+  width: 30vw; /* Fixed width */
+ height: auto; 
+ padding: 20px;
+  display: grid; /* Add display grid if needed */
+  box-shadow: 28px 18px 18px rgba(0, 0, 0, 0.808); /* Adjust the values as needed */
+
+ 
+  border-image-slice: 1;
+border-radius: 7px;
+}
+
+.start-animation .gdpr2slide-tr {
+  background-color: transparent;
+  background-image: linear-gradient(180deg,#000000 0%,#47138E 100%);
+  border: 2px solid rgb(2, 2, 58);
+  color: black; 
+  text-align: center;
+  font-size: 18px;
+  position: relative;
+  -webkit-animation: slide-trr2 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  animation: slide-trr2 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  flex: 1;
+  position: absolute;
+  transition: transform 0.5s ease-in-out;
+padding: 8px;
+  width: 30vw; 
+ height: auto; 
+ box-shadow:  18px 9px 9px rgba(0, 0, 0, 0.808); 
+ border-image-slice: 1;
+ border-radius: 7px;
+}
+@-webkit-keyframes slide-trr2 {
+  0% {
+    -webkit-transform: translateY(0) translateX(0);
+    transform: translateY(0) translateX(0);
+  }
+  100% {
+    -webkit-transform: translateY(-130px) translateX(130px);
+    transform: translateY(-130px) translateX(130px);
+  }
+}
+@keyframes slide-trr2 {
+  0% {
+    -webkit-transform: translateY(0) translateX(0);
+    transform: translateY(0) translateX(0);
+  }
+  100% {
+    -webkit-transform: translateY(-120px) translateX(130px);
+    transform: translateY(-220px) translateX(130px);
+  }
+}
+
+
+.start-animation .gdpr2slide-tl {
+  background-color: transparent;
+  background-image: linear-gradient(180deg,#000000 0%,#47138E 100%);
+      border: 2px solid rgb(2, 2, 58);
+  color: #fff; 
+  text-align: center;
+  font-size: 18px; 
+  -webkit-animation: slide-tll2 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  animation: slide-tll2 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  flex: 1;
+  position: absolute;
+  transition: transform 0.5s ease-in-out;
+  width: 30vw; 
+height: auto;
+padding: 9px;
+box-shadow:  18px 9px 9px rgba(0, 0, 0, 0.808); 
+border-image-slice: 1;
+border-radius: 7px;
+}
+
+
+
+@-webkit-keyframes slide-tll2 {
+  0% {
+    -webkit-transform: translateY(0) translateX(0);
+    transform: translateY(0) translateX(0);
+  }
+  100% {
+    -webkit-transform: translateY(-130px) translateX(-130px);
+    transform: translateY(-130px) translateX(-130px);
+  }
+}
+@keyframes slide-tll2 {
+  0% {
+    -webkit-transform: translateY(0) translateX(0);
+    transform: translateY(0) translateX(0);
+  }
+  100% {
+    -webkit-transform: translateY(-150px) translateX(-130px);
+    transform: translateY(-200px) translateX(-130px);
+  }
+}
+
+
+
+.start-animation .gdpr2slide-right {
+  background-color: transparent;
+  background-image: linear-gradient(180deg,#000000 0%,#47138E 100%);
+      border: 2px solid rgb(2, 2, 58);
+  text-align: center;
+  font-size: 18px; 
+  -webkit-animation: slide-rightt2 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  animation: slide-rightt2 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  flex: 1;
+  position: absolute;
+  transition: transform 0.5s ease-in-out;
+  width: 30vw;
+  height: auto; 
+  padding: 15px;
+  box-shadow:  18px 9px 9px rgba(0, 0, 0, 0.808); 
+  border-image-slice: 1;
+  border-radius: 7px;
+}
+@-webkit-keyframes slide-rightt2 {
+  0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(150px);
+    transform: translateX(150px);
+  }
+}
+@keyframes slide-rightt2 {
+  0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateY(100px)translateX(150px);
+    transform: translateY(100px)translateX(130px);
+  }
+}
+.start-animation .gdpr2slide-left {
+  background-color: transparent;
+  background-image: linear-gradient(180deg,#000000 0%,#47138E 100%);
+      border: 2px solid rgb(2, 2, 58);
+  color: #fff; 
+  text-align: center;
+  font-size: 18px; 
+  -webkit-animation: slide-leftt2 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  animation: slide-leftt2 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  flex: 1;
+  position: absolute;
+  transition: transform 0.5s ease-in-out;
+  width: 30vw; 
+ height: auto; 
+ padding: 8px;
+  display: grid; 
+  box-shadow: 18px 9px 9px rgba(0, 0, 0, 0.808); 
+  border-image-slice: 1;
+  border-radius: 7px;
+}
+@-webkit-keyframes slide-leftt2 {
+  0% {
+    -webkit-transform: translateY(-120px)translateX(0);
+    transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateY(150px)translateX(-130px);
+    transform: translateY(180px)translateX(-130px);
+  }
+}
+@keyframes slide-leftt2 {
+  0% {
+    -webkit-transform:translateY(150px) translateX(0);
+    transform: translateY(150px)translateX(0);
+  }
+  100% {
+    -webkit-transform:translateY(150px) translateX(-130px);
+    transform: translateY(100px)translateX(-130px);
+  }
+}
+
+
+
+}
+
+
+
+@media(max-width:1200px){
+  .indiadpdpfirstrow {
+          
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+
+    background-image: url('../../Images/GDPR\ Regulation.png');
+    background-repeat: no-repeat;
+  background-size: 100% 70%;
+ margin-bottom: -30vh;
+ margin-right: -12VW;
+  }
+  .maintitle{
+    font-size: 20px;
+  }
+  .subtitle{
+    font-size: 12px;
+    color: navy;
+  }
+
+  .subtitle22{
+    font-size: 12px;
+    color: black;
+  }
+  .maintitle2{
+    font-size: 20px;
+    color: white;
+  }
+  .subtitle2{
+    font-size: 12px;
+    color: white;
+  }
+  .submaintitle{
+    color: black;
+    font-size: 14PX;
+    }
+    .subsubtitle{
+    line-height: 1.5;
+    color: black;
+    font-size: 12PX;
+    }
+    
+    .needdpdp{
+      width: 100%;
+      height: 100%;
+      margin-top: 60PX;
+    }
+  .indiadpdpfirstrowcol {
+     background: transparent;
+  text-align: center;
+     grid-area: 1 / 1 / 2 / 2;
+     color:rgb(35, 35, 104);
+     font-weight: 600;
+     padding: 50px;
+     padding-right: 50vw;
+     padding-top: 12vh;
+     line-height: 1.5;
+   }
+   .indiadpdpfirstrowco2 {
+    grid-area: 1 / 2 / 2 / 3;
+   
+
+   background: transparent;
+  }
+  .indiadpdpsecondrow {
+    grid-template-columns: 1fr;
+    height: auto;
+}
+
+.indiadpdpsecondrowcol1 {
+    grid-area: auto; /* Reset grid-area for single column layout */
+   min-height: auto; /* Reset min-height for single column layout */
+    padding: 20px; /* Adjust padding for better spacing in single column layout */
+}
+.indiadpdpsecondrowcol2 {
+  grid-area: auto; /* Reset grid-area for single column layout */
+height: auto; /* Reset min-height for single column layout */
+  padding: 20px;
+ margin-bottom: 50px; /* Adjust padding for better spacing in single column layout */
+}
+.indiadpdpsecondrowcol2 {
+
+  min-height: 40vh;
+  padding: 50px;
+ margin-top: -10vh;
+}
+.indiadpdpthirdrow {
+  grid-template-columns: 1fr;
+  
+}
+.indiadpdpthirdrowcol1 {
+  grid-area:auto;
+  min-height: auto;
+}
+.indiadpdpthirdrowcol2 {
+  grid-area: auto;
+  min-height: auto;
+padding-left: 20px;
+ padding-right: 20px;
+ padding-bottom: -50px;
+ padding-top: 0px;
+  display: flex;
+justify-content: center;
+align-items: start;
+}
+.whatisgdpr{
+  padding: 20PX;
+}
+.indiadpdpfourthrow {
+  grid-template-columns: 1fr;
+}
+
+.indiadpdpfourthrowcol1,
+.indiadpdpfourthrowcol22 {
+  grid-area: auto; /* Reset grid-area for single column layout */
+  min-height: auto; /* Reset min-height for single column layout */
+  padding: 20px; /* Adjust padding for better spacing in single column layout */
+}
+.needgdpr{
+  width: 100%;
+  height: 100%;
+}
+.indiadpdpfifthrowcol {
+  min-height: 50vh; /* Adjust height for smaller screens */
+}
+
+.gdpranimation2 {
+  padding-top: 20vh; /* Adjust padding for smaller screens */
+}
+.gdpranimation2 {
+  display: flex;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  width: 100vw;
+  margin: 0;
+  background-color:white;
+  padding-bottom: 150px;
+ 
+}
+.indiadpdpfifthrow {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+height: auto; /* Reduce the height by 50% */
+}
+
+.indiadpdpfifthrowcol {
+  grid-area: 1 / 1 / 2 / 2;
+  background-color: rgb(20, 20, 58);
+  height: auto;
+}
+.subtitle3{
+  color: white;
+  font-size: 10px;
+}
+.maintitle4{
+  color: navy;
+  margin-bottom: 100vh;
+  font-size: 30px;
+}
+
+.gdpranimationText{
+  font-size: 12px;
+}
+
+.gdpr2box {
+       
+        
+  width: 20vw;
+  position: absolute;
+  transition: transform 0.5s ease-in-out;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Adjust the values as needed */
+
+  /* Border */
+  border: 2px solid;
+  border-image: linear-gradient(to right, purple, red, blue);
+  border-image-slice: 1;
+}
+
+.gdpr2box1 { 
+  background-color: transparent;
+  background-image: linear-gradient(180deg,#000000 0%,#47138E 100%);
+      border: 2px solid rgb(2, 2, 58);
+  color: #fff; /* Set your desired text color */
+  text-align: center;
+  font-size: 12px; /* Set your desired font size */
+  
+  flex: 1;
+  position: absolute;
+  transition: transform 0.5s ease-in-out;
+  width: 35vw; /* Fixed width */
+ height: auto; 
+ padding: 20px;
+  display: grid; /* Add display grid if needed */
+  box-shadow: 28px 18px 18px rgba(0, 0, 0, 0.808); /* Adjust the values as needed */
+
+ 
+  border-image-slice: 1;
+border-radius: 7px;
+}
+
+.start-animation .gdpr2slide-tr {
+  background-color: transparent;
+  background-image: linear-gradient(180deg,#000000 0%,#47138E 100%);
+  border: 2px solid rgb(2, 2, 58);
+  color: black; 
+  text-align: center;
+  font-size: 18px;
+  position: relative;
+  -webkit-animation: slide-trr2 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  animation: slide-trr2 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  flex: 1;
+  position: absolute;
+  transition: transform 0.5s ease-in-out;
+padding: 8px;
+  width: 30vw; 
+ height: auto; 
+ box-shadow:  18px 9px 9px rgba(0, 0, 0, 0.808); 
+ border-image-slice: 1;
+ border-radius: 7px;
+}
+@-webkit-keyframes slide-trr2 {
+  0% {
+    -webkit-transform: translateY(0) translateX(0);
+    transform: translateY(0) translateX(0);
+  }
+  100% {
+    -webkit-transform: translateY(-130px) translateX(130px);
+    transform: translateY(-130px) translateX(150px);
+  }
+}
+@keyframes slide-trr2 {
+  0% {
+    -webkit-transform: translateY(0) translateX(0);
+    transform: translateY(0) translateX(0);
+  }
+  100% {
+    -webkit-transform: translateY(-120px) translateX(130px);
+    transform: translateY(-175px) translateX(200px);
+  }
+}
+
+
+.start-animation .gdpr2slide-tl {
+  background-color: transparent;
+  background-image: linear-gradient(180deg,#000000 0%,#47138E 100%);
+      border: 2px solid rgb(2, 2, 58);
+  color: #fff; 
+  text-align: center;
+  font-size: 18px; 
+  -webkit-animation: slide-tll2 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  animation: slide-tll2 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  flex: 1;
+  position: absolute;
+  transition: transform 0.5s ease-in-out;
+  width: 30vw; 
+height: auto;
+padding: 9px;
+box-shadow:  18px 9px 9px rgba(0, 0, 0, 0.808); 
+border-image-slice: 1;
+border-radius: 7px;
+}
+
+
+
+@-webkit-keyframes slide-tll2 {
+  0% {
+    -webkit-transform: translateY(0) translateX(0);
+    transform: translateY(0) translateX(0);
+  }
+  100% {
+    -webkit-transform: translateY(-130px) translateX(-130px);
+    transform: translateY(-130px) translateX(-130px);
+  }
+}
+@keyframes slide-tll2 {
+  0% {
+    -webkit-transform: translateY(0) translateX(0);
+    transform: translateY(0) translateX(0);
+  }
+  100% {
+    -webkit-transform: translateY(-150px) translateX(-130px);
+    transform: translateY(-175px) translateX(-200px);
+  }
+}
+
+
+
+.start-animation .gdpr2slide-right {
+  background-color: transparent;
+  background-image: linear-gradient(180deg,#000000 0%,#47138E 100%);
+      border: 2px solid rgb(2, 2, 58);
+  text-align: center;
+  font-size: 18px; 
+  -webkit-animation: slide-rightt2 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  animation: slide-rightt2 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  flex: 1;
+  position: absolute;
+  transition: transform 0.5s ease-in-out;
+  width: 30vw;
+  height: auto; 
+  padding: 15px;
+  box-shadow:  18px 9px 9px rgba(0, 0, 0, 0.808); 
+  border-image-slice: 1;
+  border-radius: 7px;
+}
+@-webkit-keyframes slide-rightt2 {
+  0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(150px);
+    transform: translateX(150px);
+  }
+}
+@keyframes slide-rightt2 {
+  0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateY(120px)translateX(150px);
+    transform: translateY(190px)translateX(200px);
+  }
+}
+.start-animation .gdpr2slide-left {
+  background-color: transparent;
+  background-image: linear-gradient(180deg,#000000 0%,#47138E 100%);
+      border: 2px solid rgb(2, 2, 58);
+  color: #fff; 
+  text-align: center;
+  font-size: 18px; 
+  -webkit-animation: slide-leftt2 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  animation: slide-leftt2 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  flex: 1;
+  position: absolute;
+  transition: transform 0.5s ease-in-out;
+  width: 30vw; 
+ height: auto; 
+ padding: 8px;
+  display: grid; 
+  box-shadow: 18px 9px 9px rgba(0, 0, 0, 0.808); 
+  border-image-slice: 1;
+  border-radius: 7px;
+}
+@-webkit-keyframes slide-leftt2 {
+  0% {
+    -webkit-transform: translateY(-120px)translateX(0);
+    transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateY(150px)translateX(-130px);
+    transform: translateY(180px)translateX(-130px);
+  }
+}
+@keyframes slide-leftt2 {
+  0% {
+    -webkit-transform:translateY(150px) translateX(0);
+    transform: translateY(150px)translateX(0);
+  }
+  100% {
+    -webkit-transform:translateY(150px) translateX(-130px);
+    transform: translateY(190px)translateX(-200px);
+  }
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

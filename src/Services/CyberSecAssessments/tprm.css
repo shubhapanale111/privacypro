@@ -1,0 +1,252 @@
+
+       /* Global styles */
+       .tprmcontainer{
+        height: auto;
+        width: 100%;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url('../../Images/backgroundimagepink.png');
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+
+    
+/* First row grid layout */
+.tprmfirstrow {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  height: auto;
+  background-image: linear-gradient(to right, #062140,#062140,#062140, #133051,#133051, #1f4062, #2b5074, #376186, #416e94, #4a7ba3, #5489b2, #5e96c0, #68a3cf);
+}
+/* Main title styling */
+.tprmmaintitle1 {
+  font-size: 2rem;
+  color: white;
+}
+
+/* Image styling first row colum2 image*/
+.tprmimg {
+  height: 85%;
+  width: 85%;
+}
+/*Image styling second row colum2 image*/
+.tprmfirstimg{
+  height: 85%;
+  width: 85%;
+}
+/*Image styling third row colum1 image*/
+.tprmfirstimg2{
+  height: 70%;
+  width: 70%;
+}
+/* First row column 1 styling */
+.tprmfirstrowcol1 {
+  grid-area: 1 / 1 / 2 / 2;
+  padding: 50px;
+  padding-top: 100px;
+}
+/* First row column 2 styling */
+.tprmfirstrowcol2 {
+  grid-area: 1 / 2 / 2 / 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
+
+
+/* Second row grid layout */
+.tprmsecondrow {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  height: auto;
+  background-color: white;
+}
+.tprmmaintitle2{
+  font-size: 2rem;
+  color: navy;
+}
+.tprmsubtitle2{
+  font-size: 1rem;
+  color: black;
+}
+/* Second row column 2 styling */
+.tprmsecondrowcolumn2 {
+  grid-area: 1 / 1 / 2 / 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
+
+/* Second row column 1 styling */
+.tprmsecondrowcolumn1 {
+
+  grid-area: 1 / 2 / 2 / 3;
+  padding: 50px;
+  padding-top: 100px;
+}
+
+
+/* Second row grid layout */
+.tprmthirdrow {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  height: auto;
+  background-image: linear-gradient(to right, #062140,#062140,#062140, #133051,#133051, #1f4062, #2b5074, #376186, #416e94, #4a7ba3, #5489b2, #5e96c0, #68a3cf);
+}
+/* Third row column 1 styling */
+.tprmthirdrowcolumn1 {
+  grid-area: 1 / 2 / 2 / 3;
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+/* Third row column 2 styling */
+.tprmthirdrowcolumn2 {
+  grid-area: 1 / 1 / 2 / 2;
+  padding: 50px;
+  padding-top: 100px;
+}
+/* Fourth row grid layout */
+.tprmfourthrow {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  height: auto;
+  background-color: white;
+}
+/* Fourth row column 1 styling */
+.tprmfourthrowcolumn1 {
+  grid-area: 1 / 1 / 2 / 2;
+  padding: 50px;
+  padding-top: 100px;
+}
+/* Fourth row column 2 styling */
+.tprmfourthrowcolumn2 {
+  grid-area: 1 / 2 / 2 / 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
+
+
+/* Sixth row grid layout */
+.tprmsixthrow {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  height: auto;
+  background-color: white;
+}
+/* Sixth row column 1 styling */
+.tprmsixthrowcol1 {
+  grid-area: 1 / 2 / 2 / 3;
+  padding: 50px;
+  padding-top: 100px;
+}
+/* Sixth row column 2 styling */
+.tprmsixthrowcol2 {
+  grid-area: 1 / 1 / 2 / 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  padding: 50px;
+}
+.tprmfirstimg6{
+  height: 100%;
+  width: 100%;
+}
+
+/* Responsive styles for screens with a maximum width of 760px */
+@media screen and (max-width: 760px) {
+  /* Update the first row layout to a single column */
+  .tprmfirstrow {
+      grid-template-columns: 1fr;
+  }
+  /* Reset grid area for both columns in the first row */
+  .tprmfirstrowcol1, .tprmfirstrowcol2 {
+      grid-area: auto;
+  }
+
+   /* Update the first row layout to a single column */
+   .tprmsecondrow {
+    grid-template-columns: 1fr;
+}
+/* Reset grid area for both columns in the first row */
+.tprmsecondrowcolumn1, .tprmsecondrowcolumn2 {
+    grid-area: auto;
+}
+
+ /* Update the first row layout to a single column */
+ .tprmthirdrow {
+  grid-template-columns: 1fr;
+}
+/* Reset grid area for both columns in the first row */
+.tprmthirdrowcolumn1, .tprmthirdrowcolumn2 {
+  grid-area: auto;
+}
+
+ /* Update the first row layout to a single column */
+ .tprmfourthrow {
+  grid-template-columns: 1fr;
+}
+/* Reset grid area for both columns in the first row */
+.tprmfourthrowcolumn1, .tprmfourthrowcolumn2 {
+  grid-area: auto;
+}
+
+ /* Update the first row layout to a single column */
+ .tprmsixthrow {
+  grid-template-columns: 1fr;
+}
+/* Reset grid area for both columns in the first row */
+.tprmsixthrowcol1, .tprmsixthrowcol2 {
+  grid-area: auto;
+}
+body{
+  overflow-x: hidden;
+}
+/* Image styling first row colum2 image*/
+.tprmimg {
+  height: 100%;
+  width: 90%;
+  margin-top: -50px;
+}
+/*Image styling second row colum2 image*/
+.tprmfirstimg{
+  height: 120%;
+  width: 90%;
+  margin-top: -50px;
+}
+.tprmfirstimg6{
+  height: 120%;
+  width: 120%;
+}
+/*Image styling third row colum1 image*/
+.tprmfirstimg2{
+  height: 90%;
+  width: 85%;
+ margin-top: 10vh;
+}
+}
